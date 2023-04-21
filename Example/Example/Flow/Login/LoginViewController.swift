@@ -82,7 +82,7 @@ final class LoginViewController: UIViewController {
             }.padding(.bottom(25))
             
             VStack(spacing: 10) {
-                loginButton.frame(width: 300, height: 44)
+                loginButton.frame(height: 44)
                 
                 if viewModel.googleSignInFeatureFlag {
                     googleLoginButton.frame(height: 44)
