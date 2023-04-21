@@ -30,7 +30,6 @@
 		E1524D5C29E6B10100791CE4 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1524D5B29E6B10100791CE4 /* ExampleUITests.swift */; };
 		E1524D5E29E6B10100791CE4 /* ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1524D5D29E6B10100791CE4 /* ExampleUITestsLaunchTests.swift */; };
 		E1524D6F29E6B57C00791CE4 /* StackUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1524D6E29E6B57C00791CE4 /* StackUIKit */; };
-		E1A34A2229EEA44F00532131 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A34A2129EEA44F00532131 /* SignUpViewController.swift */; };
 		E1A34B2F29EECAD900532131 /* CardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A34B2E29EECAD900532131 /* CardUI.swift */; };
 		E1A34B3129EECC5400532131 /* NewAccountsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A34B3029EECC5400532131 /* NewAccountsCell.swift */; };
 		E1A34B3429EECDF400532131 /* NewAccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A34B3329EECDF400532131 /* NewAccountsViewModel.swift */; };
@@ -38,6 +37,7 @@
 		E1A34C4629EED80300532131 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A34C4529EED80300532131 /* LoginViewModel.swift */; };
 		E1A34C4A29EEDBD000532131 /* CustomXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A34C4829EEDBD000532131 /* CustomXibView.swift */; };
 		E1A34C4B29EEDBD000532131 /* CustomXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A34C4929EEDBD000532131 /* CustomXibView.xib */; };
+		E1BFA29929F2849B00D9EDAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFA29829F2849B00D9EDAD /* SignUpViewController.swift */; };
 		E1E085AD29E97CA6002B8DEF /* NSLayoutConstraintExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E085AC29E97CA6002B8DEF /* NSLayoutConstraintExamples.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,7 +86,6 @@
 		E1524D5B29E6B10100791CE4 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		E1524D5D29E6B10100791CE4 /* ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1524D6C29E6B47B00791CE4 /* StackUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StackUIKit; path = ..; sourceTree = "<group>"; };
-		E1A34A2129EEA44F00532131 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "../../../../../../Documents/NGA-iOS/vbp-mobile-nga-ios/SignUpViewController.swift"; sourceTree = "<group>"; };
 		E1A34B2E29EECAD900532131 /* CardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUI.swift; sourceTree = "<group>"; };
 		E1A34B3029EECC5400532131 /* NewAccountsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountsCell.swift; sourceTree = "<group>"; };
 		E1A34B3329EECDF400532131 /* NewAccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountsViewModel.swift; sourceTree = "<group>"; };
@@ -94,6 +93,7 @@
 		E1A34C4529EED80300532131 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E1A34C4829EEDBD000532131 /* CustomXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomXibView.swift; sourceTree = "<group>"; };
 		E1A34C4929EEDBD000532131 /* CustomXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomXibView.xib; sourceTree = "<group>"; };
+		E1BFA29829F2849B00D9EDAD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E1E085AC29E97CA6002B8DEF /* NSLayoutConstraintExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -301,7 +301,7 @@
 		E1A34A2029EEA43500532131 /* Sign Up */ = {
 			isa = PBXGroup;
 			children = (
-				E1A34A2129EEA44F00532131 /* SignUpViewController.swift */,
+				E1BFA29829F2849B00D9EDAD /* SignUpViewController.swift */,
 			);
 			path = "Sign Up";
 			sourceTree = "<group>";
@@ -487,10 +487,10 @@
 				E135191029E8B6AA00B81EC2 /* AccountHeaderCell.swift in Sources */,
 				E1524D3F29E6B0FF00791CE4 /* LoginViewController.swift in Sources */,
 				E135190A29E8A9E600B81EC2 /* Constants.swift in Sources */,
+				E1BFA29929F2849B00D9EDAD /* SignUpViewController.swift in Sources */,
 				E1524D3B29E6B0FF00791CE4 /* AppDelegate.swift in Sources */,
 				E135191229E8B82500B81EC2 /* AccountHeaderViewModel.swift in Sources */,
 				E135190329E89FB500B81EC2 /* AccountOverviewCellViewModel.swift in Sources */,
-				E1A34A2229EEA44F00532131 /* SignUpViewController.swift in Sources */,
 				E13518E429E838DA00B81EC2 /* HomeViewController.swift in Sources */,
 				E135190429E89FB500B81EC2 /* AccountOverviewCell.swift in Sources */,
 				E135191929E950BA00B81EC2 /* TransactionModel.swift in Sources */,

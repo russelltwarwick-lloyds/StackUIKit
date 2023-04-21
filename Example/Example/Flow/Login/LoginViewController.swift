@@ -72,7 +72,6 @@ final class LoginViewController: UIViewController {
     
     private func setConstraints() {
         view.VStack {
-            customView
             headerLabel.frame(height: 30)
             titleLabel
             Spacer(height: 25)
@@ -88,12 +87,11 @@ final class LoginViewController: UIViewController {
                 if viewModel.googleSignInFeatureFlag {
                     googleLoginButton.frame(height: 44)
                 }
-            }.padding(.horizontal(20))
+            }
             
             signUpButton
             Spacer()
         }
-        .alignment(.center)
         .padding(15)
     }
     

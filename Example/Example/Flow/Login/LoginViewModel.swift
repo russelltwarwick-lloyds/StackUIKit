@@ -2,7 +2,7 @@ import Foundation
 
 final class LoginViewModel {
     
-    var googleSignInFeatureFlag = false
+    var googleSignInFeatureFlag = true
     
     var headerText: String {
         "Welcome back"
