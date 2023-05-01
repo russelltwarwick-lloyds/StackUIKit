@@ -5,8 +5,11 @@ final class AccountHeaderCell: UITableViewCell {
     
     // MARK: - UI
     
-    private let titleLabel = UILabel()
-        .font(18, weight: .bold)
+    private let titleLabel: NGACustomUILabel = {
+        let label = NGACustomUILabel()
+        label.numberOfLines = 4
+        return label
+    }()
     
     private let initialsLabel = UILabel()
         .font(16, weight: .bold)
@@ -46,6 +49,7 @@ final class AccountHeaderCell: UITableViewCell {
         backgroundColor = .clear
         contentView.backgroundColor = .clear
         selectionStyle = .none
+
     }
     
     private func setConstraints(){

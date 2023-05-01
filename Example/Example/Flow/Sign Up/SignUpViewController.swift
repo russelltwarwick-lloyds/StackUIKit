@@ -68,7 +68,7 @@ final class SignUpViewController: UIViewController {
             titleLabel
             Spacer(height: 25)
             
-            VStack(spacing: 10) {
+            VStackView(spacing: 10) {
                 emailField
                 nameField
                 passwordField

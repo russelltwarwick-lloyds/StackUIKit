@@ -36,7 +36,7 @@ public extension UIView {
 
 // MARK: Class Variants
 
-public final class ZStack: UIStackView {
+public final class ZStackView: UIStackView {
     public init(@ResultBuilder<UIView> views: () -> [UIView]) {
         super.init(frame: .zero)
         let container = UIView()
@@ -50,7 +50,7 @@ public final class ZStack: UIStackView {
     required init(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
 }
 
-public final class VStack: UIStackView {
+public final class VStackView: UIStackView {
     public init(spacing: CGFloat = .zero,
                 @ResultBuilder<UIView> views: () -> [UIView]) {
         super.init(frame: .zero)
@@ -63,7 +63,7 @@ public final class VStack: UIStackView {
     required init(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
 }
 
-public final class HStack: UIStackView {
+public final class HStackView: UIStackView {
     public init(spacing: CGFloat = .zero,
                 @ResultBuilder<UIView> views: () -> [UIView]) {
         super.init(frame: .zero)

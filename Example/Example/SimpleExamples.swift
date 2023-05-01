@@ -67,7 +67,7 @@ final class ExamplesVC: UIViewController {
         view.VStack {
             label1
             label2
-            HStack {
+            HStackView {
                 label3.frame(width: 40)
                 Spacer()
             }

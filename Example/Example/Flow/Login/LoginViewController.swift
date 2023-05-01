@@ -76,12 +76,12 @@ final class LoginViewController: UIViewController {
             titleLabel
             Spacer(height: 25)
             
-            VStack(spacing: 10) {
+            VStackView(spacing: 10) {
                 emailField
                 passwordField
             }.padding(.bottom(25))
             
-            VStack(spacing: 10) {
+            VStackView(spacing: 10) {
                 loginButton.frame(height: 44)
                 
                 if viewModel.googleSignInFeatureFlag {
